@@ -1,0 +1,7 @@
+2023-06-23 00:20:13.028 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sharon/.vscode/extensions
+2023-06-23 00:20:13.382 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sharon/.vscode/extensions
+2023-06-23 00:20:16.199 [info] [perf] Render performance baseline is 140ms
+2023-06-23 00:22:41.186 [info] [perf] Render performance baseline is 140ms
+2023-06-23 00:23:13.307 [error] GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+2023-06-23 00:24:56.612 [error] GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+2023-06-23 00:25:56.015 [error] GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files

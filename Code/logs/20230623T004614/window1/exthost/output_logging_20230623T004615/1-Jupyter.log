@@ -1,0 +1,214 @@
+Visual Studio Code (1.79.2, undefined, desktop)
+Jupyter Extension Version: 2023.5.1101742258.
+Python Extension Version: 2023.10.1.
+Platform: linux (x64).
+Workspace folder ~/WorkDir/MachineLearning, Home = /home/sharon
+00:46:16.431 [info] Start refreshing Interpreter Kernel Picker (1687461376431)
+00:46:16.442 [info] Using Pylance
+00:46:16.590 [error] Failed to parse remote URI http://localhost:8888/?token=5d7f9ae5bf2ca9192c7a7631747c207753f4a93c9284906c [Error: Invalid remote URI
+	at qr (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:1694598)
+	at hk.parseUri (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:24:530090)
+	at ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:24:527843]
+00:46:16.737 [error] Error fetching kernels from http://localhost:8888/ (localhost): [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168863] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461376620',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:46:16.739 [error] Error fetching kernels from http://localhost:8888/ (localhost): [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461376623',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:46:16.741 [error] SessionManager:getKernelSpecs failure:  [Error: Poll (@jupyterlab/services:KernelSpecManager#specs) is disposed.
+	at e.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:171511)
+	at u.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:62940)
+	at Ff.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:158208)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170937)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168863]
+00:46:16.742 [warn] Could not fetch kernels from the remote server, falling back to cache: Error: Forbidden
+00:46:16.743 [error] SessionManager:getKernelSpecs failure:  [Error: Poll (@jupyterlab/services:KernelSpecManager#specs) is disposed.
+	at e.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:171511)
+	at u.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:62940)
+	at Ff.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:158208)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170937)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356]
+00:46:16.743 [error] UniversalRemoteKernelFinder: Failed to get kernels without cache [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461376623',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:46:18.407 [warn] Failed to get activated env vars for /bin/python in 1268ms
+00:46:18.418 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+00:46:18.465 [info] Process Execution: /bin/python -m pip list
+00:46:18.961 [info] End refreshing Interpreter Kernel Picker (1687461376431)
+00:46:19.781 [warn] No interpreter for Pylance for Notebook URI "~/WorkDir/MachineLearning/Machine-Learning-Specialization-Coursera/C2 - Advanced Learning Algorithms/week1/optional-labs/C2_W1_Lab01_Neurons_and_Layers.ipynb"
+00:46:24.950 [error] Error fetching kernels from http://localhost:8888/ (localhost): [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461384930',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:46:24.960 [error] SessionManager:getKernelSpecs failure:  [Error: Poll (@jupyterlab/services:KernelSpecManager#specs) is disposed.
+	at e.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:171511)
+	at u.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:62940)
+	at Ff.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:158208)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170937)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356]
+00:46:24.960 [error] UniversalRemoteKernelFinder: Failed to get kernels without cache [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168356] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461384930',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:46:25.010 [info] End refreshing Interpreter Kernel Picker (1687461376431)
+00:46:43.731 [error] Failed to parse remote URI http://127.0.0.1:8888/?token=7671dbe06d78ea51692a3598cd66aa743eb9b7be25c686de [Error: Invalid remote URI
+	at qr (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:1694598)
+	at hk.parseUri (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:24:530090)
+	at ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:24:528878
+	at b.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at d.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at f._fireDidAccept (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:114142)
+	at E.$onDidAccept (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:112352)
+	at s.N (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11717)
+	at s.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:11435)
+	at s.H (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:10516)
+	at s.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:9494)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:8282
+	at b.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at d.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:73:14783)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:32461
+	at b.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at d.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:73:14783)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:30587)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)]
+00:46:49.882 [info] End refreshing Interpreter Kernel Picker (1687461376431)
+00:47:01.282 [info] Dispose Kernel '~/WorkDir/MachineLearning/Machine-Learning-Specialization-Coursera/C2 - Advanced Learning Algorithms/week1/optional-labs/C2_W1_Lab01_Neurons_and_Layers.ipynb' associated with '~/WorkDir/MachineLearning/Machine-Learning-Specialization-Coursera/C2 - Advanced Learning Algorithms/week1/optional-labs/C2_W1_Lab01_Neurons_and_Layers.ipynb'
+00:47:03.312 [error] Error fetching kernels from http://localhost:8888/ (localhost): [t [Error]: Forbidden
+	at t.create (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:68089)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async t.listRunning (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:55954)
+	at async Ff.getRunningKernels (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:159094)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170123)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168863] {
+  response: L [Response] {
+    size: 0,
+    timeout: 0,
+    [Symbol(Body internals)]: { body: [PassThrough], disturbed: true, error: null },
+    [Symbol(Response internals)]: {
+      url: 'http://localhost:8888/api/kernels?1687461423285',
+      status: 403,
+      statusText: 'Forbidden',
+      headers: [T [Headers]],
+      counter: 0
+    }
+  },
+  traceback: ''
+}
+00:47:03.316 [error] SessionManager:getKernelSpecs failure:  [Error: Poll (@jupyterlab/services:KernelSpecManager#specs) is disposed.
+	at e.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:171511)
+	at u.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:2:62940)
+	at Ff.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:158208)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+	at async Bf.listKernelsFromConnection (~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:170937)
+	at async ~/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64/out/extension.node.js:17:168863]
+00:47:03.316 [warn] Could not fetch kernels from the remote server, falling back to cache: Error: Forbidden
+00:47:03.322 [info] End refreshing Interpreter Kernel Picker (1687461376431)
+00:48:36.552 [warn] No interpreter for Pylance for Notebook URI "~/WorkDir/MachineLearning/Machine-Learning-Specialization-Coursera/C2 - Advanced Learning Algorithms/week1/optional-labs/C2_W1_Lab02_CoffeeRoasting_TF.ipynb"
+00:48:46.212 [warn] No interpreter for Pylance for Notebook URI "~/WorkDir/MachineLearning/Machine-Learning-Specialization-Coursera/C2 - Advanced Learning Algorithms/week1/optional-labs/C2_W1_Lab03_CoffeeRoasting_Numpy.ipynb"

@@ -1,0 +1,59 @@
+2023-06-23 00:20:13.308 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sharon/.vscode/extensions
+2023-06-23 00:20:13.485 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/sharon/.vscode/extensions Unable to create file 'vscode-userdata:/home/sharon/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-06-23 00:20:13.486 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sharon/.vscode/extensions
+2023-06-23 00:21:12.194 [info] Getting Manifest... shades-of-blue.shades-of-blue
+2023-06-23 00:21:12.205 [info] Installing extension: shades-of-blue.shades-of-blue
+2023-06-23 00:21:14.880 [warning] Extension signature verification failed with error 'UnknownError': shades-of-blue.shades-of-blue
+2023-06-23 00:21:14.911 [info] Extracted extension to /home/sharon/.vscode/extensions/.96012fb4-ba6f-49da-8262-fc08f1809d7b: shades-of-blue.shades-of-blue
+2023-06-23 00:21:14.916 [info] Renamed to /home/sharon/.vscode/extensions/shades-of-blue.shades-of-blue-0.1.2
+2023-06-23 00:21:14.918 [info] Extracting extension completed. shades-of-blue.shades-of-blue
+2023-06-23 00:21:14.927 [info] Extension installed successfully: shades-of-blue.shades-of-blue
+2023-06-23 00:21:25.101 [info] Getting Manifest... ms-toolsai.jupyter
+2023-06-23 00:21:25.112 [info] Installing extension: ms-toolsai.jupyter
+2023-06-23 00:21:25.512 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-06-23 00:21:25.606 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-06-23 00:21:25.709 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-06-23 00:21:25.811 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-06-23 00:21:25.985 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-06-23 00:21:25.985 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-06-23 00:21:25.985 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-06-23 00:21:25.986 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-06-23 00:21:28.426 [warning] Extension signature verification failed with error 'UnknownError': ms-toolsai.vscode-jupyter-cell-tags
+2023-06-23 00:21:28.470 [info] Extracted extension to /home/sharon/.vscode/extensions/.ae9e988b-32f5-4ce7-8830-fb44f2ec28c7: ms-toolsai.vscode-jupyter-cell-tags
+2023-06-23 00:21:28.474 [info] Renamed to /home/sharon/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-06-23 00:21:28.477 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-06-23 00:21:28.617 [warning] Extension signature verification failed with error 'UnknownError': ms-toolsai.jupyter-keymap
+2023-06-23 00:21:28.633 [info] Extracted extension to /home/sharon/.vscode/extensions/.24238891-9041-4bee-aaee-9b09b2edbbe6: ms-toolsai.jupyter-keymap
+2023-06-23 00:21:28.636 [info] Renamed to /home/sharon/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-06-23 00:21:28.638 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-06-23 00:21:30.774 [warning] Extension signature verification failed with error 'UnknownError': ms-toolsai.vscode-jupyter-slideshow
+2023-06-23 00:21:30.803 [info] Extracted extension to /home/sharon/.vscode/extensions/.b90159b5-3229-47ee-ada0-1300d3943f0c: ms-toolsai.vscode-jupyter-slideshow
+2023-06-23 00:21:30.807 [info] Renamed to /home/sharon/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-06-23 00:21:30.810 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-06-23 00:21:31.968 [warning] Extension signature verification failed with error 'UnknownError': ms-toolsai.jupyter-renderers
+2023-06-23 00:21:32.265 [info] Extracted extension to /home/sharon/.vscode/extensions/.7c62f638-c89f-4e5c-8156-871aab2fe1a2: ms-toolsai.jupyter-renderers
+2023-06-23 00:21:32.269 [info] Renamed to /home/sharon/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-06-23 00:21:32.271 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-06-23 00:21:37.282 [warning] Extension signature verification failed with error 'UnknownError': ms-toolsai.jupyter
+2023-06-23 00:21:37.311 [info] Getting Manifest... ms-python.python
+2023-06-23 00:21:37.321 [info] Installing extension: ms-python.python
+2023-06-23 00:21:37.760 [info] Extracted extension to /home/sharon/.vscode/extensions/.c1e68a3c-f1cc-4ecf-a713-8a0093911beb: ms-toolsai.jupyter
+2023-06-23 00:21:37.782 [info] Renamed to /home/sharon/.vscode/extensions/ms-toolsai.jupyter-2023.5.1101742258-linux-x64
+2023-06-23 00:21:37.790 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-06-23 00:21:37.806 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-06-23 00:21:37.806 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-06-23 00:21:37.807 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-06-23 00:21:37.807 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-06-23 00:21:37.807 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-06-23 00:21:38.022 [info] Getting Manifest... ms-python.vscode-pylance
+2023-06-23 00:21:38.191 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-06-23 00:21:44.947 [warning] Extension signature verification failed with error 'UnknownError': ms-python.python
+2023-06-23 00:21:46.873 [info] Extracted extension to /home/sharon/.vscode/extensions/.5ba06c1c-36e8-4cd4-bc35-1c8a52a3eb24: ms-python.python
+2023-06-23 00:21:46.887 [info] Renamed to /home/sharon/.vscode/extensions/ms-python.python-2023.10.1
+2023-06-23 00:21:46.893 [info] Extracting extension completed. ms-python.python
+2023-06-23 00:21:53.987 [warning] Extension signature verification failed with error 'UnknownError': ms-python.vscode-pylance
+2023-06-23 00:21:58.110 [info] Extracted extension to /home/sharon/.vscode/extensions/.2e4f676a-cd87-47a2-b559-965ce72c1d7f: ms-python.vscode-pylance
+2023-06-23 00:21:58.122 [info] Renamed to /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30
+2023-06-23 00:21:58.124 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-06-23 00:21:58.134 [info] Extension installed successfully: ms-python.python
+2023-06-23 00:21:58.134 [info] Extension installed successfully: ms-python.vscode-pylance

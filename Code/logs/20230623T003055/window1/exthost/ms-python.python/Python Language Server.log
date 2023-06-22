@@ -1,0 +1,34 @@
+2023-06-23 00:31:00.187 [info] [Info  - 00:31:00] (4667) Pylance language server 2023.6.30 (pyright ae795f5b) starting
+2023-06-23 00:31:00.188 [info] [Info  - 00:31:00] (4667) Server root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist
+2023-06-23 00:31:00.200 [info] [Info  - 00:31:00] (4667) Starting service instance "MachineLearning"
+2023-06-23 00:31:00.319 [info] [Info  - 00:31:00] (4667) Setting pythonPath for service "MachineLearning": "/bin/python"
+2023-06-23 00:31:00.321 [info] [Warn  - 00:31:00] (4667) stubPath /home/sharon/WorkDir/MachineLearning/typings is not a valid directory.
+2023-06-23 00:31:00.377 [info] [Info  - 00:31:00] (4667) Assuming Python version 3.11
+2023-06-23 00:31:00.600 [info] [Info  - 00:31:00] (4667) Found 45 source files
+2023-06-23 00:31:00.715 [info] [Info  - 00:31:00] (4667) Skipping django stubs download because package is not installed.
+2023-06-23 00:31:00.729 [info] [Info  - 00:31:00] (4667) Starting service instance "MachineLearning"
+2023-06-23 00:31:00.749 [info] [Warn  - 00:31:00] (4667) stubPath /home/sharon/WorkDir/MachineLearning/typings is not a valid directory.
+2023-06-23 00:31:00.933 [info] [Info  - 00:31:00] (4667) Found 45 source files
+2023-06-23 00:31:01.028 [info] [Info  - 00:31:01] (4667) Skipping django stubs download because package is not installed.
+2023-06-23 00:31:01.408 [info] [Info  - 00:31:01] (4667) Background analysis(1) root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist
+2023-06-23 00:31:01.408 [info] [Info  - 00:31:01] (4667) Background analysis(1) started
+2023-06-23 00:31:01.471 [info] [Info  - 00:31:01] (4667) Background analysis(2) root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist
+2023-06-23 00:31:01.475 [info] [Info  - 00:31:01] (4667) Background analysis(2) started
+2023-06-23 00:31:01.727 [info] [Info  - 00:31:01] (4667) Indexer background runner(3) root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist (index)
+2023-06-23 00:31:01.728 [info] [Info  - 00:31:01] (4667) Indexing(3) started
+2023-06-23 00:31:02.480 [info] [Info  - 00:31:02] (4667) scanned(3) 108 files over 1 exec env
+2023-06-23 00:31:04.528 [info] [Info  - 00:31:04] (4667) indexed(3) 69 files over 1 exec env
+2023-06-23 00:31:04.536 [info] [Info  - 00:31:04] (4667) Indexing finished(3).
+2023-06-23 00:36:59.760 [info] [Info  - 00:36:59] (4667) Starting service instance "MachineLearning"
+2023-06-23 00:36:59.771 [info] [Warn  - 00:36:59] (4667) stubPath /home/sharon/WorkDir/MachineLearning/typings is not a valid directory.
+2023-06-23 00:36:59.940 [info] [Info  - 00:36:59] (4667) Found 45 source files
+2023-06-23 00:37:00.036 [info] [Info  - 00:37:00] (4667) Skipping django stubs download because package is not installed.
+2023-06-23 00:37:00.403 [info] [Info  - 00:37:00] (4667) Background analysis(4) root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist
+2023-06-23 00:37:00.407 [info] [Info  - 00:37:00] (4667) Background analysis(4) started
+2023-06-23 00:37:00.709 [info] [Info  - 00:37:00] (4667) Indexer background runner(5) root directory: /home/sharon/.vscode/extensions/ms-python.vscode-pylance-2023.6.30/dist (index)
+2023-06-23 00:37:00.709 [info] [Info  - 00:37:00] (4667) Indexing(5) started
+2023-06-23 00:37:01.325 [info] [Info  - 00:37:01] (4667) scanned(5) 108 files over 1 exec env
+2023-06-23 00:37:04.195 [info] [Info  - 00:37:04] (4667) [IDX(5)] Long operation: index execution environment /home/sharon/WorkDir/MachineLearning (2731ms)
+2023-06-23 00:37:04.195 [info] [Info  - 00:37:04] (4667) [IDX(5)] Long operation: index packages /home/sharon/WorkDir/MachineLearning (2751ms)
+2023-06-23 00:37:04.195 [info] [Info  - 00:37:04] (4667) indexed(5) 69 files over 1 exec env
+2023-06-23 00:37:04.206 [info] [Info  - 00:37:04] (4667) Indexing finished(5).
