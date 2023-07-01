@@ -9,11 +9,11 @@ super + e
 
 # terminal emulator
 super + Return
-	alacritty
+	alacritty -o font.size=7
 
 # program launcher
 super + @space
-	dmenu_run
+	/home/sharon/.config/rofi/launchers/type-7/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -154,4 +154,13 @@ super + shift + {1-8}
     id=$(bspc query -N -n); bspc node -d ^{0-7}; bspc node -f ${id}
 
 super + v
-	code
+  code
+
+super + x:
+	feh --bg-scale --randomize ~/.wallpapers/
+
+super + alt + x:
+	betterlockscreen -l dimblur 
+
+super + q
+	/home/sharon/.config/rofi/powermenu/type-6/powermenu.sh

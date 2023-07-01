@@ -1,6 +1,8 @@
 {
-    "workbench.colorTheme": "Shades Of Blue",
     "window.menuBarVisibility": "toggle",
-    "workbench.activityBar.visible": false,
-    "jupyter.askForKernelRestart": false
+    "jupyter.askForKernelRestart": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ]
 }

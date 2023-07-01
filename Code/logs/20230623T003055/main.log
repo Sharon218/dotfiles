@@ -1,8 +1,0 @@
-2023-06-23 00:30:55.140 [info] update#setState idle
-2023-06-23 00:30:56.929 [error] update#isLatestVersion(): failed to check for updates
-2023-06-23 00:30:56.930 [error] Error: net::ERR_NAME_NOT_RESOLVED
-    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49312)
-    at SimpleURLLoaderWrapper.emit (node:events:513:28)
-2023-06-23 00:31:02.329 [warning] No ptyHost heartbeat after 6 seconds
-2023-06-23 00:31:25.143 [info] update#setState checking for updates
-2023-06-23 00:31:25.377 [info] update#setState idle
