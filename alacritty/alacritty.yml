@@ -1,0 +1,15 @@
+opacity: 1.0
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: medium
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: MediumItalic
+size: 8.0
+live_config_reload: true
+import:
+ - ~/.config/alacritty/themes/catppuccin.yaml
